@@ -1,0 +1,1 @@
+VK_IOS_SDK_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "Foundation" -framework "SafariServices" -framework "Security" -framework "UIKit"
