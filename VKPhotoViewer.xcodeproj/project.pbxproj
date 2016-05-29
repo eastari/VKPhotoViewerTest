@@ -37,7 +37,6 @@
 		04A123971CE7AC3E002AF24F /* PhotoScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A123961CE7AC3E002AF24F /* PhotoScreenInteractor.swift */; };
 		04A123991CE7ACA2002AF24F /* PhotoScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A123981CE7ACA2002AF24F /* PhotoScreenRouter.swift */; };
 		04A1239B1CE7E1BC002AF24F /* CacheServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1239A1CE7E1BC002AF24F /* CacheServiceInterface.swift */; };
-		04BD1CC91CEA1F6200368622 /* AlbumParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD1CC81CEA1F6200368622 /* AlbumParser.swift */; };
 		04BD1CCC1CEA2D4000368622 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD1CCB1CEA2D4000368622 /* JSON.swift */; };
 		04DAE9311CEF088900BE504D /* ImageParentDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAE9301CEF088900BE504D /* ImageParentDomainModel.swift */; };
 		04DAE9331CEF0FDE00BE504D /* MainServiceGetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAE9321CEF0FDE00BE504D /* MainServiceGetModel.swift */; };
@@ -60,7 +59,6 @@
 		04EA2C291CE0FB740075053D /* PhotoDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA2C281CE0FB740075053D /* PhotoDomainModel.swift */; };
 		04F326AD1CF1E582001DEBE2 /* VKPhotoViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F326AC1CF1E582001DEBE2 /* VKPhotoViewerUITests.swift */; };
 		04F80F981CEC60C1005C9D67 /* JSONInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F80F971CEC60C1005C9D67 /* JSONInterface.swift */; };
-		04F80F9A1CEC7288005C9D67 /* PhotoParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F80F991CEC7288005C9D67 /* PhotoParser.swift */; };
 		85440EECAEF8815C2FE5EF5C /* Pods_VKPhotoViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1BE67C3286EDF0D6FB0484 /* Pods_VKPhotoViewer.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8925D8A138CE31F533336517 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4053B534326E1319595F8F0 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -109,7 +107,6 @@
 		04A123961CE7AC3E002AF24F /* PhotoScreenInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoScreenInteractor.swift; sourceTree = "<group>"; };
 		04A123981CE7ACA2002AF24F /* PhotoScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoScreenRouter.swift; sourceTree = "<group>"; };
 		04A1239A1CE7E1BC002AF24F /* CacheServiceInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheServiceInterface.swift; sourceTree = "<group>"; };
-		04BD1CC81CEA1F6200368622 /* AlbumParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumParser.swift; sourceTree = "<group>"; };
 		04BD1CCB1CEA2D4000368622 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		04DAE9301CEF088900BE504D /* ImageParentDomainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageParentDomainModel.swift; sourceTree = "<group>"; };
 		04DAE9321CEF0FDE00BE504D /* MainServiceGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainServiceGetModel.swift; sourceTree = "<group>"; };
@@ -134,7 +131,6 @@
 		04F326AC1CF1E582001DEBE2 /* VKPhotoViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKPhotoViewerUITests.swift; sourceTree = "<group>"; };
 		04F326AE1CF1E582001DEBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F80F971CEC60C1005C9D67 /* JSONInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONInterface.swift; sourceTree = "<group>"; };
-		04F80F991CEC7288005C9D67 /* PhotoParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoParser.swift; sourceTree = "<group>"; };
 		3A1BE67C3286EDF0D6FB0484 /* Pods_VKPhotoViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKPhotoViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7926DBB9393125FA6B1E2D69 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B7C5CBC266D224E079BD7A2F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -201,45 +197,19 @@
 			path = VKPhotoViewer;
 			sourceTree = "<group>";
 		};
-		04BD1CC61CEA1F2600368622 /* VKService */ = {
-			isa = PBXGroup;
-			children = (
-				04BD1CC71CEA1F3900368622 /* ResponseParser */,
-			);
-			name = VKService;
-			sourceTree = "<group>";
-		};
-		04BD1CC71CEA1F3900368622 /* ResponseParser */ = {
-			isa = PBXGroup;
-			children = (
-				04BD1CC81CEA1F6200368622 /* AlbumParser.swift */,
-				04F80F991CEC7288005C9D67 /* PhotoParser.swift */,
-			);
-			name = ResponseParser;
-			sourceTree = "<group>";
-		};
-		04BD1CCA1CEA2D0D00368622 /* JSONSerealizer */ = {
-			isa = PBXGroup;
-			children = (
-				04F80F971CEC60C1005C9D67 /* JSONInterface.swift */,
-				04BD1CCB1CEA2D4000368622 /* JSON.swift */,
-			);
-			name = JSONSerealizer;
-			sourceTree = "<group>";
-		};
 		04E4ACCD1CE24357003C9A51 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				04DAE9321CEF0FDE00BE504D /* MainServiceGetModel.swift */,
-				04E7E4DC1CDC75AC001E37DF /* ImageDownloader.swift */,
-				04BD1CCA1CEA2D0D00368622 /* JSONSerealizer */,
-				04BD1CC61CEA1F2600368622 /* VKService */,
-				04A1239A1CE7E1BC002AF24F /* CacheServiceInterface.swift */,
-				04E7E4DE1CDCEBD9001E37DF /* CacheService.swift */,
 				04A123801CE769F6002AF24F /* ServerManagerInterface.swift */,
 				04E249401CDE1A8900B24B51 /* ServerManager.swift */,
+				04F80F971CEC60C1005C9D67 /* JSONInterface.swift */,
+				04BD1CCB1CEA2D4000368622 /* JSON.swift */,
+				04A1239A1CE7E1BC002AF24F /* CacheServiceInterface.swift */,
+				04E7E4DE1CDCEBD9001E37DF /* CacheService.swift */,
 				0409E3A91CDFB63800F00AFF /* ParseDataServiceInterface.swift */,
 				0409E3A71CDFB5D500F00AFF /* ParseDataService.swift */,
+				04E7E4DC1CDC75AC001E37DF /* ImageDownloader.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -538,7 +508,6 @@
 				04E7A4AF1CE3627100CE4C28 /* LoginScreenRouter.swift in Sources */,
 				04E7E4DD1CDC75AC001E37DF /* ImageDownloader.swift in Sources */,
 				0409E3AA1CDFB63800F00AFF /* ParseDataServiceInterface.swift in Sources */,
-				04F80F9A1CEC7288005C9D67 /* PhotoParser.swift in Sources */,
 				04DAE9351CEF365400BE504D /* VKColors.swift in Sources */,
 				0409E3A81CDFB5D500F00AFF /* ParseDataService.swift in Sources */,
 				0458B39E1CDA7F8D00995807 /* AlbumDomainModel.swift in Sources */,
@@ -547,7 +516,6 @@
 				04A1238B1CE771A2002AF24F /* PhotosListRouter.swift in Sources */,
 				04E7A4B61CE3DEAD00CE4C28 /* User.swift in Sources */,
 				04E7E4DF1CDCEBD9001E37DF /* CacheService.swift in Sources */,
-				04BD1CC91CEA1F6200368622 /* AlbumParser.swift in Sources */,
 				04A1237D1CE61A7A002AF24F /* AlbumListInteractor.swift in Sources */,
 				04E7A4AB1CE360BC00CE4C28 /* LoginScreenViewController.swift in Sources */,
 				04A1237F1CE61AB0002AF24F /* AlbumListRouter.swift in Sources */,
